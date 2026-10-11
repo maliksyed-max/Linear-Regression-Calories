@@ -63,7 +63,7 @@ import seaborn as sns
 # ------------------------------------------------------------
 # STEP 2: LOAD THE DATASET
 # ------------------------------------------------------------
-cal = pd.read_csv("c:/360DG/Datasets/calories_consumed.csv")
+cal = pd.read_excel("calories_consumed.xlsx")
 cal.columns = ["wt_gained", "cal_consumed"]
 
 print("First 5 Rows:\n", cal.head())
